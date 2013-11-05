@@ -37,7 +37,7 @@ int main() {
     printf("%s", str1);
 	strcat (command,str1);
 	strcat (command,".zip ");
-	strcat (command,"/media/livingstore");
+	strcat (command,"/media/livingstore");   //replace livingstore with your username
 
 	system(command);
 	
